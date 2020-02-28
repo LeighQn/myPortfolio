@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+}
+
+li, a {
+    font-family: 'Times New Roman', Georgia, serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 5%;
+    letter-spacing: 5px;
+    top: 100;
+    right: 0;
+    width: 100%;
+    background-color: white;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
+  } 
+
+.logo {
+    cursor: pointer;
+    color: darkgray;
+
+}
+
+.nav__links{
+    list-style-type: none;
+}
+
+.nav__links li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: crimson;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    background-color: lightgray;
+    background-size: 100%;
+}
+
+.container{
+    position: initial;
+    text-align: center;
+    color: white;
+}
+
+.slogan1, .slogan2, .slogan3, .slogan4{
+    font-size: 60px;
+    position: absolute;
+    bottom: 190px;
+    left: 70%;
+    background-color: transparent;
+    color: rgb(24, 21, 21);
+    opacity: 80%;
+}
+
+.slogan2{
+    padding: 0;
+    font-size: 70px;
+    bottom: 120px;
+    letter-spacing: 1px;
+   
+}
+
+.slogan3{
+    font-size: 30px;
+    bottom: 90px;
+    background-color: transparent;
+    color: rgb(24, 21, 21);
+}
+
+.slogan4{
+    font-size: 100px;
+    bottom: 2px;
+    color: #cc0e0e;
+}
+
+.parent{
+    width: 420px;
+    justify-content: space-evenly;
+    letter-spacing: 5px;
+    background-color: white;
+    padding: 40px 50px 0px 10px;
+}
+
+.child{
+    justify-content: space-evenly;
+    padding: 20px 60px 40px 60px;
+    background-color: white;
+}
+
+.contact-form{
+    flex-direction: row;
+    width: 100%;
+    max-width: 1100px;
+    background:transparent;
+    position: absolute;
+    top: 1150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    text-align: auto;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    text-align: center;
+    
+  }
+
+  .contact-header{
+      color: rgb(78, 78, 78);
+      justify-content: center;
+      background-color: transparent;
+      padding: 0px;
+  }
+  
+  .btn{
+    display: inline-block;
+    background: #b81414;
+    padding: 5px 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    
+ }
+  
+ .btn-bg{
+     background-color: transparent;
+     justify-content: right;
+ }
+ 
+  .left-col, .right-col, .center-col{
+    flex-direction: column;
+    align-content: auto;
+    justify-content: space-evenly;
+    background-color: white;
+    bottom: 0;
+    padding: 20px 60px 40px 60px;
+    
+}
+
+.left-col{
+    bottom: 0;
+}
+
+
+.input{
+    justify-content: initial;
+    margin: 8px 0;
+}
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    top: 260%;
+    width: 100%;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
